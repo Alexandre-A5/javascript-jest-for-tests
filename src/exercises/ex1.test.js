@@ -6,7 +6,7 @@ document.body.innerHTML = `
   </div>
 `;
 
-require('./exercises/ex1.js');
+require('src/exercises/ex1.js');
 
 test('adds class to element when button is clicked', () => {
     const button = document.getElementById('add-class-button');
